@@ -384,22 +384,22 @@ Untuk mematikan fitur ini, ketik
           return
         break
     }
-    await this.sendMessage(from, 'Maaf, karena anda menelfon bot. anda diblokir otomatis', MessageType.extendedText)
+    await this.sendMessage(from, 'Udah di bilangin jangan tlfon bot, ya jangan di tlfon, tlol, dhlh capekk. bye..', MessageType.extendedText)
     await this.blockUser(from, 'add')
   }
 }
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
+    rowner: 'Lu Siapa?',
+    owner: 'Lu Siapa?',
+    mods: 'Lu Siapa?',
+    premium: 'Perintah ini hanya untuk member _*Premium*_ !kasian bgt lu blm premium, mnding lu buruan daftar bos!',
     group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
+    private: 'PC saya aja kalo mau make ini',
+    admin: 'Perintah ini hanya untuk *Admin* grup!, lu member. mau ngapain?',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
+    unreg: 'Daftar Dulu Begoo! untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Deva Cans.16*'
   }[type]
   if (msg) return m.reply(msg)
 }

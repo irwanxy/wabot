@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
-  "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "name": "Devaa Bot",
+  "version": "2.0.0",
+  "description": "Bantu Donasi Juga Njir, Duit w abis buat beli apikey, dana/ovo 0888-2611-841",
   "depecrated": false,
   "main": "index.js",
   "directories": {
@@ -19,16 +19,16 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://web-programmingxyans.github.io/bucinhayalan",
   "author": {
-    "name": "Nurutomo"
+    "name": "devaa"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
+    "url": "git+https://github.com/irwanx/wabot-aq.git"
   },
   "bugs": {
-    "url": "https://github.com/Nurutomo/wabot-aq/issues"
+    "url": "https://github.com/irwanx/wabot-aq/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {

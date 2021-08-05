@@ -10,10 +10,9 @@ let handler = async (m, { usedPrefix, text }) => {
         text
     ]
 }
-handler.help = ['mulaiabsen [teks]']
-handler.tags = ['absen']
+handler.help = ['omulaiabsen [teks]']
+handler.tags = ['obsen']
 handler.command = /^(start|mulai)absen$/i
 handler.group = true
-handler.admin = true
 handler.owner = true
 module.exports = handler

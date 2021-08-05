@@ -5,10 +5,9 @@ let handler = async (m, { usedPrefix }) => {
     delete conn.absen[id]
     m.reply(`Done!`)
 }
-handler.help = ['hapusabsen']
-handler.tags = ['absen']
+handler.help = ['delabsen']
+handler.tags = ['obsen']
 handler.command = /^(delete|hapus)absen$/i
 handler.group = true
-handler.admin = true
 handler.owner = true
 module.exports = handler
